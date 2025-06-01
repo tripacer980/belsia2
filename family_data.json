@@ -1,0 +1,49 @@
+[
+  {
+    "id": "person1",
+    "firstName": "Jean",
+    "lastName": "Dupont",
+    "birthDate": "1950-03-15",
+    "birthPlace": "Paris",
+    "relation": null,
+    "spouse": "person2",
+    "children": ["person3", "person4"]
+  },
+  {
+    "id": "person2",
+    "firstName": "Marie",
+    "lastName": "Durand",
+    "birthDate": "1952-07-20",
+    "birthPlace": "Lyon",
+    "relation": null,
+    "spouse": "person1",
+    "children": ["person3", "person4"]
+  },
+  {
+    "id": "person3",
+    "firstName": "Pierre",
+    "lastName": "Dupont",
+    "birthDate": "1975-11-01",
+    "birthPlace": "Marseille",
+    "relation": "enfant",
+    "parents": ["person1", "person2"]
+  },
+  {
+    "id": "person4",
+    "firstName": "Sophie",
+    "lastName": "Dupont",
+    "birthDate": "1978-05-10",
+    "birthPlace": "Bordeaux",
+    "relation": "enfant",
+    "parents": ["person1", "person2"]
+  },
+  {
+    "id": "person5",
+    "firstName": "Luc",
+    "lastName": "Martin",
+    "birthDate": "2000-01-25",
+    "birthPlace": "Toulouse",
+    "relation": "enfant",
+    "parents": ["person3"]
+  }
+]
